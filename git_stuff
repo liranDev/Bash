@@ -11,5 +11,6 @@ git config --global core.autocrlf true
 # some git commands
 
 git checkout file --> revert added changes
-git --oneline --graph
+git config --global alias.lga "log --oneline --graph --all --decorate"
 git branch --set-upstream master origin/master # tracks remote branch
+git checkout -b NAME # create and checkout branch
